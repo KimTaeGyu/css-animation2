@@ -1,0 +1,29 @@
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2em;
+}
+
+nav:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+nav:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#underline{
+    position: absolute;
+    width: 0;
+    background-color: aquamarine;
+    top: 60px;
+    left: 0;
+    height: 4px;
+    transition: 0.5s;
+    /*
+    transition 이 문법은 움직일때 부드럽게 움직이게 하는 ?
+    */
+}
